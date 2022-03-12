@@ -1,0 +1,11 @@
+name: yolo
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - torch
+  - torchvision
+  - ipykernel
