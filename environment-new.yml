@@ -4,8 +4,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas
+  # required
   - numpy
+  - pandas
+  - Pillow
   - torch
   - torchvision
-  - ipykernel
+
+  # optional
+  - ipykernel # to run notebooks
+
+  # code checks
+  - black
